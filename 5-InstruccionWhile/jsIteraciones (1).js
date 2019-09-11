@@ -21,4 +21,15 @@ if (!(contador % 2))
 }
 console.log(contador);
 contador++;
+
+---------------------------------------------------
+
+var contador = 0;
+
+var numero;
+while (contador <500){
+	numero = parseInt (prompt("Ingrese un numero:"));
+	contador += numero;
+}
+
 */
