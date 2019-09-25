@@ -2,8 +2,14 @@ function mostrar()
 {
 
 	var contador=0;
+	var num;
 	var acumulador=0;
-	var respuesta='si';
+	while(confirm("mas numeros?")){
+		contador++;
+		num=prompt("");
+		num=parseInt(num);
+		acumulador+=num;
+		}
 
 
 document.getElementById('suma').value=acumulador;
