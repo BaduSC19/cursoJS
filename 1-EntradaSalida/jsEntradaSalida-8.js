@@ -8,7 +8,7 @@ function SacarResto()
     var num2;
     var resto;
 
-    num1 = parseInt(document.getElementById("numeroDiviendo").value);
+    num1 = parseInt(document.getElementById("numeroDividendo").value);
     num2 = parseInt(document.getElementById("numeroDivisor").value);
 
     resto = num1 % num2;
